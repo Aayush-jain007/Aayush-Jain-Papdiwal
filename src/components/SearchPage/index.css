@@ -1,0 +1,97 @@
+.searchPageBackground {
+  display: flex;
+  flex-direction: row;
+  background-color: #161616;
+  color: #f2f3f5;
+}
+
+.leftBar {
+  background-color: rgb(40, 40, 40);
+  width: 100px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightBar {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  width: 100%;
+  padding-right: 100px;
+}
+
+.topSearchBarism {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputField {
+  width: 80%;
+  background-color: rgb(40, 40, 40);
+  height: 40px;
+  border: 0px;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  padding-left: 10px;
+}
+
+.goat {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px -10px 0px -10px;
+}
+
+.texter {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.avatarism {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-left: 5px;
+}
+
+.iconsTopTab {
+  display: flex;
+  align-items: center;
+}
+
+.clear-button {
+  background-color: #f2f3f5;
+  border: 0px;
+  padding: 4px 15px;
+  color: rgb(40, 40, 40);
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.paragraphism {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f2f3f5;
+}
+
+.bell {
+  margin-right: 10px;
+}
+
+.selected {
+  background-color: red;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.icon {
+  margin-bottom: 30px;
+}

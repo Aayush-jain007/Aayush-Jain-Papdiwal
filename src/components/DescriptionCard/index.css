@@ -1,0 +1,52 @@
+.flex-item {
+  flex: 1;
+  background-color: rgb(40, 40, 40);
+  border-radius: 20px;
+  min-width: 200px;
+  max-width: 300px;
+  border: 0px;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.top-line {
+  padding: 0px 15px 0px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #f2f3f5;
+}
+
+.bottom-line {
+  padding: 0px 15px 0px 15px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #f2f3f5;
+}
+
+.image {
+  width: 100%;
+  height: 120px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.button-item {
+  padding: 0px 15px 0px 15px;
+}
+.buttonism {
+  align-self: flex-start;
+  background-color: #f2f3f5;
+  color: transparent;
+  color: rgb(40, 40, 40);
+  border: 0px;
+  border-radius: 10px;
+  margin-top: auto;
+  font-size: 12px;
+  font-weight: bold;
+}

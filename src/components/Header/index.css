@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px 20px 100px;
+  background-color: rgb(40, 40, 40);
+  color: #f2f3f5;
+  height: 80px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-text {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.options-text {
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.buttonBackground {
+  background: transparent;
+  cursor: pointer;
+  color: #f2f3f5;
+  border: 0px;
+  align-self: center;
+}
+
+.hover {
+  height: 100px;
+}
