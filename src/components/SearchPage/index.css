@@ -95,3 +95,14 @@
 .icon {
   margin-bottom: 30px;
 }
+
+.inputBoxContainer {
+  background-color: rgb(40, 40, 40);
+  width: 80%;
+  height: 40px;
+  border: 0px;
+  border-radius: 20px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}

@@ -92,12 +92,8 @@ class Page extends Component {
             <option value="" disabled>
               Search by name
             </option>
-            <option key="1" value="1">
-              1
-            </option>
-            <option key="2" value="2">
-              2
-            </option>
+            <option value="1">1</option>
+            <option value="2">2</option>
           </select>
           <select
             value={selectedTypeOption}
@@ -107,12 +103,8 @@ class Page extends Component {
             <option value="" disabled>
               Search by type
             </option>
-            <option key="1" value="1">
-              1
-            </option>
-            <option key="2" value="2">
-              2
-            </option>
+            <option value="1">1</option>
+            <option value="2">2</option>
           </select>
         </div>
         <div className="cards-container">

@@ -3,11 +3,13 @@ import {
   BsFillShareFill,
   BsCalendar2EventFill,
 } from "react-icons/bs";
+import { HiOutlineSearch } from "react-icons/hi";
 import { PiGameControllerFill } from "react-icons/pi";
 import { MdPermContactCalendar } from "react-icons/md";
 import "./index.css";
 import DetailRows from "../DetailRows";
 import Recommendations from "../Recommendation";
+import { useState } from "react";
 
 const starsAndPlanetsList = [
   {
@@ -106,7 +108,10 @@ const SearchPage = () => {
       </div>
       <div className="rightBar">
         <div className="topSearchBarism">
-          <input type="text" className="inputField" />
+          <div className="inputBoxContainer">
+            <HiOutlineSearch size={20} />
+            <input type="text" className="inputField" />
+          </div>
           <div className="iconsTopTab">
             <div className="bell">
               <BsFillBellFill />
